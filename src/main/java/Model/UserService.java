@@ -9,4 +9,8 @@ public class UserService {
         String[] users = {user1.getName(), user2.getName(), user3.getName()};
         return users;
     }
+    public static User[] getListUser() {
+        User[] users = {user1, user2, user3};
+        return users;
+    }
 }
