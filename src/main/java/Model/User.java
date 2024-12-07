@@ -16,5 +16,29 @@ public class User {
         this.password = password;
     }
 
+    public String getNickName() {
+        return nickName;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getTelephone() {
+        return telephone;
+    }
+    public String getPassword() {
+        return password;
+    }
 
+    public void  setNickName(String nickname) {
+        this.nickName = nickname;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
