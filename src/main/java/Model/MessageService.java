@@ -10,8 +10,7 @@ public class MessageService {
         messages = new Message[4];
         messages[0] = send(users[0], users[1], "First message");
         messages[1] = send(users[1], users[2], "Second message");
-        messages[2] = send(users[2], users[3], "Third message");
-        messages[3] = send(users[3], users[4], "Fourth message");
+        messages[2] = send(users[2], users[0], "Third message");
         return messages;
     }
 }
